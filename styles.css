@@ -2,14 +2,20 @@
 
     text-align: center;
 }
-.diaGrid{
+.disflex{
 
-    display: grid;
-    grid-template-rows: 2px;
+    display: flex;
+   flex-direction: row;
     text-align: center;
 }
 .lineas{
 
-    width: 300px;
-    height: 2px;
+    width: 450px;
+    height: 1px;
+    background-color: black;
+}
+.moverTex{
+    margin-top: 0%;
+   font-family:  monospace;
+   
 }
