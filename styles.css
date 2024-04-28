@@ -1,0 +1,15 @@
+.centrarNombre{
+
+    text-align: center;
+}
+.diaGrid{
+
+    display: grid;
+    grid-template-rows: 2px;
+    text-align: center;
+}
+.lineas{
+
+    width: 300px;
+    height: 2px;
+}
