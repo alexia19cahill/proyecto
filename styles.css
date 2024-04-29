@@ -1,21 +1,59 @@
 .centrarNombre{
 
     text-align: center;
+
 }
 .disflex{
 
     display: flex;
    flex-direction: row;
-    text-align: center;
+   justify-content: center;
 }
 .lineas{
 
-    width: 450px;
+    width: 250px;
     height: 1px;
     background-color: black;
+  
 }
 .moverTex{
     margin-top: 0%;
-   font-family:  monospace;
+   font-family:  monospace;  
+  margin-right: 100px;
    
+}
+.tamañoIcon{
+
+    width: 20px;
+    height: 20px;
+   
+}
+
+.icons{
+ display: flex;
+ justify-content: space-around;
+ 
+}
+.colorLetras{
+    color: black;
+    text-decoration: none;
+}
+.hr2{
+    width: 95%;
+    height: 1px;
+    background-color: black;
+}
+h2{
+    margin-left: 6%;
+}
+
+.circulos{
+
+    width: 180px;
+    height: 170px;
+    margin-left: 5%;
+}
+body{
+     border: black 2px solid;
+    background-color: rgb(243, 240, 240);
 }
