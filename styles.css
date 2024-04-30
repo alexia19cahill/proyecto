@@ -1,7 +1,8 @@
 .centrarNombre{
 
-    text-align: center;
-
+   text-align:center ;
+   font-size: 40px;
+   font-family:  monospace;  
 }
 .disflex{
 
@@ -11,7 +12,7 @@
 }
 .lineas{
 
-    width: 250px;
+    width: 180px;
     height: 1px;
     background-color: black;
   
@@ -49,8 +50,8 @@ h2{
 
 .circulos{
 
-    width: 131px;
-    height: 130px;
+    width: 106px;
+    height: 100px;
     margin-left: 4%;
 }
 body{
@@ -65,22 +66,23 @@ body{
  }
  .fotocv{
     margin-left: 30%;
-    width: 260px;
-    height: 280px;
+    width: 250px;
+    height: 260px;
  }
 
 .partegris{
     background-color: rgb(243, 240, 240); 
-    height: 1500px; 
-    width: 900px;
+    height: 1230px; 
+    width: 730px;
     border-radius: 1% solid black;
-    margin-left: 14%;
+    margin-left: 20%;
+   
 
 }
 
 .border{
     border: solid black 1px ;
-   height: 1500px;
+   height: 1230px;
 }
 .img{
     width: 50px;
@@ -110,4 +112,19 @@ body{
     left: 50%;
     position: absolute;
    }
+   .botonCambiar{
+
+    margin-left: 38%;
+    background-color: #000;
+    color: white;
+
+   }
+
+   .input{
+   display: grid;
    
+
+   
+
+
+   }
