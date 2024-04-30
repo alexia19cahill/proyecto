@@ -1,21 +1,113 @@
 .centrarNombre{
 
     text-align: center;
+
 }
 .disflex{
 
     display: flex;
    flex-direction: row;
-    text-align: center;
+   justify-content: center;
 }
 .lineas{
 
-    width: 450px;
+    width: 250px;
     height: 1px;
     background-color: black;
+  
 }
 .moverTex{
     margin-top: 0%;
-   font-family:  monospace;
+   font-family:  monospace;  
+  margin-right: 100px;
    
 }
+.tamañoIcon{
+
+    width: 20px;
+    height: 20px;
+   
+}
+
+.icons{
+ display: flex;
+ justify-content: space-around;
+ 
+}
+.colorLetras{
+    color: black;
+    text-decoration: none;
+}
+.hr2{
+    width: 95%;
+    height: 1px;
+    background-color: black;
+}
+h2{
+    margin-left: 6%;
+}
+
+.circulos{
+
+    width: 131px;
+    height: 130px;
+    margin-left: 4%;
+}
+body{
+    
+    background-color: rgb(255, 253, 253);
+}
+.grid{
+    display: grid; 
+    grid-template-columns: 1fr 1fr ; 
+    grid-template-rows: 1fr ; 
+
+ }
+ .fotocv{
+    margin-left: 30%;
+    width: 260px;
+    height: 280px;
+ }
+
+.partegris{
+    background-color: rgb(243, 240, 240); 
+    height: 1500px; 
+    width: 900px;
+    border-radius: 1% solid black;
+    margin-left: 14%;
+
+}
+
+.border{
+    border: solid black 1px ;
+   height: 1500px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+   
+
+     
+}
+.grid2{
+    display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr;  
+ 
+  
+}
+.moverIcons{
+    display: grid; 
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr; 
+    margin: 95px;
+
+}
+    
+.v-line{
+    border-left: 2px solid #000;
+    height: 39%;
+    left: 50%;
+    position: absolute;
+   }
+   
