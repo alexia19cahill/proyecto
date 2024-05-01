@@ -72,9 +72,16 @@ body{
 
  }
  .fotocv{
-    margin-left: 30%;
-    width: 250px;
-    height: 260px;
+    margin-left: 40%;
+    width: 200px;
+    height: 300px;
+    transition: 0,5s;
+    object-fit: cover;
+ }
+
+ img:hover{
+ 
+  transform: scale(1.2);
  }
 
 .partegris{
@@ -132,3 +139,22 @@ body{
      background-color: rgb(221, 207, 207);
      color: rgb(0, 0, 0);
    }
+   
+   .botonNube{
+   background-color: #c3e5e6;
+   }
+  .botonOscuro{
+   background-color: #808a8a;
+   }
+  .botonLluvia{
+   background-color: #83bdd0;
+   }
+   .botones{
+
+   display: grid;
+   width: 200px;
+   height: 20px;
+   gap: 25px;
+   
+   }
+
