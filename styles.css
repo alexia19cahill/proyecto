@@ -1,9 +1,16 @@
-.centrarNombre{
+#p{
 
    text-align:center ;
    font-size: 40px;
    font-family:  monospace;  
 }
+#tabla{
+
+   text-align:center ;
+   font-size: 40px;
+   font-family:  monospace;  
+}
+
 .disflex{
 
     display: flex;
@@ -112,19 +119,16 @@ body{
     left: 50%;
     position: absolute;
    }
-   .botonCambiar{
+   #boton{
 
-    margin-left: 38%;
+   
     background-color: #000;
     color: white;
 
    }
 
-   .input{
-   display: grid;
-   
-
-   
-
-
+   #nombre{
+   margin-left: 26%;
+     background-color: rgb(221, 207, 207);
+     color: rgb(0, 0, 0);
    }
