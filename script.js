@@ -39,3 +39,36 @@ lluvia.addEventListener("click", () => {
    
 
 })
+let ligth= document.getElementById('luz');
+let fondo3= document.getElementById('fondo');
+
+
+luz.addEventListener("click", () => {
+   fondo.style.backgroundColor = "#FFFDFD"
+   
+
+})
+
+let texto = document.getElementById ("texto")
+let boton1 = document.getElementById ("boton1")
+let tabla1 = document.getElementById ("tabla1")
+let p2 = document.getElementById ("p")
+
+boton1.addEventListener("click", function () {
+ let p2 = document.createElement("texto")
+ tabla1.innerHTML = texto.value;
+ 
+    
+})
+
+let texto1 = document.getElementById ("texto1")
+let boton2 = document.getElementById ("boton2")
+let tabla3 = document.getElementById ("tabla3")
+let p3= document.getElementById ("p")
+
+boton2.addEventListener("click", function () {
+ let p = document.createElement("texto1")
+ tabla3.innerHTML = texto1.value;
+ 
+    
+})
