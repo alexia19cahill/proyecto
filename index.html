@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body id="body">
-
+     <!-- estos botones son para cambiar el fondo del CV -->
      <div class="botones" >    
        <button class="botonLight" id= "luz">LIGHT</button>           
        <button class="botonNube" id= "nube">CLOUDS</button>
@@ -15,39 +15,50 @@
        <button class="botonLluvia" id="lluvia">RAIN</button>
 
     </div> 
-   
+         <!-- se crea id para llevar a js para el cambio de color en el formulario y el class para hacer un backgroundcolor en css -->
+    
      <div id="fondo" class="partegris">
 
       <div class="border">
-        
+         
         <div id="tabla">
+       <!-- se crea id  llamado tabla para llamar al js y hacer funcion de adquirir el texto -->
         <p id="p">ALEXIA CAHILL </p>
+        <!-- se pone un id al texto para llamarlo por medio de un getElementById en js -->
         </div>
 
         <br />
         <br />
+        
         <div class="disflex">
+       <!-- se crea un div padre para mover las lineas hr de forma horizontal -->
           <hr class="lineas" />
 
           <div id="tabla1">
+              <!-- se crea id  llamado tabla1 para llamar al js y hacer funcion de adquirir el texto -->
           <h2 class ="moverTex" id="p1">RECEPTIONIST</h2>
+          <!-- se pone un id al texto para llamarlo por medio de un getElementById en js -->
          </div>
 
           <hr class="lineas" />
         </div>
+
         <br />
         <br />
+        <!-- se crea un nav para la implementacion de los links con icons -->
         <nav class="icons">
            
          <div id="tabla3"> <a class="colorLetras" href="https://web.whatsapp.com/"><img class="tamañoIcon"  id="p"  src="img/whatsapp.png" alt="" srcset="" />  60225664   </a> </div>
-          <a class="colorLetras" href="https://www.google.com/intl/es/gmail/about/"><img class="tamañoIcon"src="img/email.png"alt=""srcset=""/>alexianavarro2005@gmail.com</a>
-          <a class="colorLetras" href="" ><img class="tamañoIcon"  src="img/placeholder.png" alt="" srcset=""/>Puntarenas el roble</a >
+        <div id="tabla4"> <a class="colorLetras" href="https://www.google.com/intl/es/gmail/about/"><img class="tamañoIcon" id="p"  src="img/email.png"alt=""srcset=""/>alexianavarro2005@gmail.com</a> </div> 
+        <div id="tabla5">  <a class="colorLetras" href="" ><img class="tamañoIcon" id="p" src="img/placeholder.png" alt="" srcset=""/>Puntarenas el roble</a ></div>
         </nav>
         <br /><br />
         <hr class="hr2" />
+        <!-- para editar linea -->
        
         <h2 id="h2">PERSONAL SKILLS</h2>
        
+        <!-- se agrearon los anillos graficos -->
         <img class="circulos"src="img/Instagram Square Charts - CC (1).png"alt="" srcset=""/>
         <img class="circulos" src="img/Instagram Square Charts - CC.png" alt=""srcset=""/>
         <img class="circulos" src="img/Instagram Square Charts - CC (2).png"  alt=""srcset="" />
@@ -57,6 +68,7 @@
         <h2>JOB EXPERIENCE</h2>
 
         <div class="grid">
+          <!-- se hace un class para llamarlo en el css y hacer un grid  -->
           <ul>
             <h4>liceria hotel (2018-2020)</h4>
             <li>
@@ -91,6 +103,7 @@
               media.
             </li>
           </ul>
+          <!-- imagen del CV -->
           <img class="fotocv"  src="img/fotocv.jpg"  alt="" />
           
         </div>
@@ -102,12 +115,12 @@
             <li>Bancherlor Degree of hospitality and Receptionist</li>
             <li>Bancherlor Degree of hospitality and Receptionist</li>
           </ul>
-         
+            <!-- se agrega un class para hacer linea vertical -->
           <div class="v-line"></div>
           
          
           <div class="moverIcons">
-            
+            <!-- se crea img con icons -->
           <div><img class="img" src="img/camara-antigua.png" alt="" />Photografy</div> 
           <div><img class="img" src="img/plano.png" alt="" />Traveling</div> 
           <div><img class="img" src="img/paleta-de-color.png" alt="" />Painthing</div> 
@@ -116,16 +129,24 @@
         </div>
                <br> <br>
 
+               <!-- se crea los input y botones los cuales se van a llamar en el js -->
+          <div class="fondoInputs">
          <input id="nombre" type="text" placeholder="Cambiar el nombre">
           <button id="boton"> Enviar cambio</button>
-         
              <br>  <br> <br> 
-            <input id="texto" type="text" placeholder="Cambiar la profeccion">
+            <input id="texto" type="text" placeholder="Cambiar la profección">
             <button id="boton1"> Enviar cambio</button>
             <br>  <br> <br> 
-            <input id="texto1" type="text" placeholder="Cambiar numero">
+            <input id="texto1" type="text" placeholder="Cambiar número">
             <button id="boton2"> Enviar cambio</button>
-
+            <br>  <br> <br> 
+            <input id="texto2" type="text" placeholder="Cambiar correo">
+            <button id="boton3"> Enviar cambio</button>
+             <br>  <br> <br> 
+            <input id="texto3" type="text" placeholder="Cambiar dirección">
+            <button id="boton4"> Enviar cambio</button>
+             <br> 
+           </div>
         <script src="script.js"></script>
       </div>
     </div>
