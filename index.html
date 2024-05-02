@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body id="body">
-     <div class="botones" >               
-   <button class="botonNube" id= "nube">CLOUDS</button>
-   <button class="botonOscuro" id="oscuro">DARK</button>
-   <button class="botonLluvia" id="lluvia">RAIN</button>
+
+     <div class="botones" >    
+       <button class="botonLight" id= "luz">LIGHT</button>           
+       <button class="botonNube" id= "nube">CLOUDS</button>
+       <button class="botonOscuro" id="oscuro">DARK</button>
+       <button class="botonLluvia" id="lluvia">RAIN</button>
+
     </div> 
    
      <div id="fondo" class="partegris">
@@ -26,17 +29,17 @@
         <div class="disflex">
           <hr class="lineas" />
 
-        
-          <h2 class ="moverTex">RECEPTIONIST</h2>
-         
+          <div id="tabla1">
+          <h2 class ="moverTex" id="p1">RECEPTIONIST</h2>
+         </div>
 
           <hr class="lineas" />
         </div>
         <br />
         <br />
         <nav class="icons">
-
-          <a class="colorLetras" href="https://web.whatsapp.com/"><img class="tamañoIcon" src="img/whatsapp.png" alt="" srcset="" />  60225664  </a>
+           
+         <div id="tabla3"> <a class="colorLetras" href="https://web.whatsapp.com/"><img class="tamañoIcon"  id="p"  src="img/whatsapp.png" alt="" srcset="" />  60225664   </a> </div>
           <a class="colorLetras" href="https://www.google.com/intl/es/gmail/about/"><img class="tamañoIcon"src="img/email.png"alt=""srcset=""/>alexianavarro2005@gmail.com</a>
           <a class="colorLetras" href="" ><img class="tamañoIcon"  src="img/placeholder.png" alt="" srcset=""/>Puntarenas el roble</a >
         </nav>
@@ -111,12 +114,17 @@
          <div><img class="img" src="img/auriculares.png" alt="" />Music</div> 
           </div>
         </div>
-             <br> <br> <br>
+               <br> <br>
 
          <input id="nombre" type="text" placeholder="Cambiar el nombre">
           <button id="boton"> Enviar cambio</button>
          
-            <br>  <br> <br> <br>
+             <br>  <br> <br> 
+            <input id="texto" type="text" placeholder="Cambiar la profeccion">
+            <button id="boton1"> Enviar cambio</button>
+            <br>  <br> <br> 
+            <input id="texto1" type="text" placeholder="Cambiar numero">
+            <button id="boton2"> Enviar cambio</button>
 
         <script src="script.js"></script>
       </div>
